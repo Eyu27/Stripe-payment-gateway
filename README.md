@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -64,3 +65,36 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# Stripe-payment-gateway
+Stripe is a popular payment gateway that provides a secure and reliable way to process payments online. It offers a variety of payment options like credit and debit cards, digital wallets, and bank transfers. 
+
+
+
+## Prerequisites
+
+To get the most out of this guide, you’ll need to:
+
+* [Create an API key](https://dashboard.stripe.com/test/developers)
+  
+
+## Instructions
+
+Clone the project
+
+1. Go to your stripe dashboard
+
+```bash
+https://dashboard.stripe.com/test/developers
+```
+
+2. Get a secreate key and paste it to your .env file
+
+3. Run the code
+
+   ```bash
+   php artisan serve
+```
+
+
+>>>>>>> bbf26bbb61903edc28590f9cd37165b1730b9264
